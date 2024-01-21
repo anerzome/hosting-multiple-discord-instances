@@ -12,7 +12,7 @@ function Hosting(token)
 {
     const userclient = new api.Client()
     userclient.on("ready", () => { 
- userclient.user.setActivity("ATOMZ"); 
+ userclient.user.setActivity("{activity name}"); 
         console.log('Connected: ' + userclient.user.tag);
     });
     userclient.login(token);
